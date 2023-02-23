@@ -9,7 +9,8 @@
 	<div>
 		{#if selectedCar}
 			<div class="image-container">
-				<img src={selectedCar.image} alt={selectedCar.brand} />
+				<img src={selectedCar.image} alt={selectedCar.brand} style=" max-height: 300px;
+    max-width: 300px;" />
 			</div>
 			<h3 style="margin-left: 1rem">
 				{selectedCar.brand}
